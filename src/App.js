@@ -147,7 +147,7 @@ function App() {
           <Paper elevation={3} sx={{ p: { xs: 2, sm: 3 }, borderRadius: 2 }}>
             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
               <Typography variant="h4" component="h1" gutterBottom sx={{ color: 'primary.main' }}>
-                Công việc Siêu Cấp (MUI)
+                 Quản Lý Công việc
               </Typography>
               <IconButton onClick={toggleThemeMode} color="inherit">
                 {themeMode === 'light' ? <Brightness4Icon /> : <Brightness7Icon />}

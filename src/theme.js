@@ -1,14 +1,10 @@
 import { createTheme } from '@mui/material/styles';
 import { red, blueGrey, grey, cyan, teal } from '@mui/material/colors';
 
-// Chọn font chữ đẹp từ Google Fonts (ví dụ: Inter hoặc Open Sans)
-// Đảm bảo bạn đã import font này trong public/index.html
-// <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-
 export const getAppTheme = (mode) => {
   const isLight = mode === 'light';
 
-  return createTheme({ // Gọi createTheme ở đây, không cần import nó trong App.js nữa
+  return createTheme({
     palette: {
       mode,
       primary: {
